@@ -1,4 +1,4 @@
-# get-date
+# date-formatter-lib
 
 A simple utility to format dates in various formats using `dayjs`. This package allows developers to easily format dates into commonly used formats.
 
@@ -7,14 +7,14 @@ A simple utility to format dates in various formats using `dayjs`. This package 
 You can install the package via npm:
 
 ```bash
-npm install get-date
+npm install date-formatter-lib
 ```
 
 ## Usage
 After installing the package, you can easily import and use it in your project.
 
 ```bash
-const formatDate = require('get-date');
+const formatDate = require('date-formatter-lib');
 
 // Example usage:
 const formattedDate = formatDate(new Date(), 'mdyts');
@@ -46,7 +46,7 @@ hhmmA: 21-Sep-18,Fri 10.45 PM
 ## Example Code
 
 ```bash
-const formatDate = require('get-date');
+const formatDate = require('date-formatter-lib');
 
 const date = new Date();
 console.log(formatDate(date, 'mdyts'));  // Sep 20, 2018 10:45:33 PM
