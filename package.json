@@ -6,10 +6,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Likhith K.P.",
   "license": "ISC",
-  "description": "",
+  "description": "A simple and easy-to-use npm package for formatting JavaScript `Date` objects into multiple human-readable formats. It leverages the powerful `dayjs` library to provide developers with a variety of date formatting options. Whether you need a date in the `dd-mm-yyyy` format, or a more complex format like `Sep 20, 2018 10:45:33 PM`, this utility has you covered with several common and customizable formats.",
   "dependencies": {
     "dayjs": "^1.11.13"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likhithkp/get-date.git"
+  },
+  "bugs": {
+    "url": "https://github.com/likhithkp/get-date/issues"
+  },
+  "homepage": "https://github.com/likhithkp/get-date#readme"
 }
